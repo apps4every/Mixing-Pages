@@ -53,7 +53,7 @@ Desde Visual Studio:
 - Abre el fichero MezcladorPaginas.sln y ejecútalo.
 
 Desde Windows:
-- Abre el fichero setup.exe y ejecútalo.
+- Descarga los fichero que encontrarás en la carpeta [Release](https://github.com/apps4every/Mixing-Pages/tree/master/MixerPagesInstaller/Release), una vez descargados, selecciona el fichero setup.exe y ejecútalo.
 
 ## Licencia - The MIT License ([MIT](https://es.wikipedia.org/wiki/Licencia_MIT))
 
