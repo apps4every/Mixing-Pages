@@ -29,13 +29,13 @@ El objetivo de este programa es recuperar la lista de documentos escaneados (for
 Para escanear, un buen programa es [VueScan](https://www.hamrick.com/), también puedes usar otras [alternativas](https://alternativasde.com/tools/vuescan).
 
 El procedimiento a seguir sería el siguiente:
-- Configurar el programa de scanner que dispongas para que cada página escaneada se genere en un pdf independiente y configurar la ruta donde se grabara el resultado escaneado (por ejemplo C:\temp\document).
+- Configurar el programa de scanner que dispongas para que cada página escaneada se genere en un pdf independiente y configurar la ruta donde se grabara el resultado escaneado (por ejemplo `C:\temp\document`).
 - Poner el documento en el alimentador de páginas, para empezar a escanear las páginas impares.
-- Tras finalizar el escenado de las páginas impares, moverlas a una carpeta donde se identifique como páginas impares (por ejemplo C:\temp\document\impar).
+- Tras finalizar el escenado de las páginas impares, moverlas a una carpeta donde se identifique como páginas impares (por ejemplo `C:\temp\document\impar`).
 - Poner el documento en el alimentador de páginas, para empezar a escanear las páginas pares.
-- Tras finalizar el escenado de las páginas pares, moverlas a una carpeta donde se identifique como páginas pares (por ejemplo C:\temp\document\par).
-- Ejecutar el programa C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe, ver [instrucción de ejecución](https://github.com/apps4every/Mixing-Pages/blob/master/README.md#ejecuci%C3%B3n).
-- El resultado lo obtendrás en la carpeta donde indicaste el escaneado del documento (por ejemplo C:\temp\document)
+- Tras finalizar el escenado de las páginas pares, moverlas a una carpeta donde se identifique como páginas pares (por ejemplo `C:\temp\document\par`).
+- Ejecutar el programa `C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe`, ver [instrucción de ejecución](https://github.com/apps4every/Mixing-Pages/blob/master/README.md#ejecuci%C3%B3n).
+- El resultado lo obtendrás en la carpeta donde indicaste el escaneado del documento (por ejemplo `C:\temp\document`)
 
 ## Características
 - Fácilmente configurable desde un fichero json editable por el usuario. para ello se usa la librería [Newtonsoft.Json.12.0.3](https://www.newtonsoft.com/json)
@@ -77,9 +77,9 @@ Las siguientes instrucciones presuponen que estás usando la versión instalada,
 
 #### Configuración
 
-El programa se encuentra en C:\Program Files (x86)\Apps4Every\MixerPages.
+El programa se encuentra en `C:\Program Files (x86)\Apps4Every\MixerPages`.
 
-Lo primero es editar (deberás haber abierto tu editor de textos, por ejemplo el bloc de notas, con permisos de administrador) el contenido del fichero MixerPages.json. 
+Lo primero es editar (deberás haber abierto tu editor de textos, por ejemplo el bloc de notas, con permisos de administrador) el contenido del fichero `MixerPages.json`. 
 
 Si los ficheros a procesar en tu equipo están en las siguientes carpetas:
 
@@ -111,8 +111,8 @@ Explicación del contenido del fichero de configuración:
 ```
 #### Ejecución
 
-Una vez configurado correctamente el programa, se ejecutará con el siguiente programa: C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe
+Una vez configurado correctamente el programa, se ejecutará con el siguiente programa: `C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe`
 
 Si hubiera algún error, el programa finalizará indicando qué errores se han encontrado.
 
-Si el programa finaliza correctamente (no se muestra mensaje de error), en la carpeta `documentFolder` aparecerá o bien un fichero denominado 'NewDocument.pdf' con los documentos procesados, o bien cada uno de los ficheros pdf pero en el orden original del documento escaneado.  Ello dependerá del valor (true o false) asignado a `unifyFile`
+Si el programa finaliza correctamente (no se muestra mensaje de error), en la carpeta `documentFolder` aparecerá o bien un fichero denominado `NewDocument.pdf` con los documentos procesados, o bien cada uno de los ficheros pdf pero en el orden original del documento escaneado.  Ello dependerá del valor (true o false) asignado a `unifyFile`
