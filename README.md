@@ -18,7 +18,7 @@ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVE
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# 1. Mixing-Pages - Español
+# Mixing-Pages - Español
 
 A partir de un documento escaneado con páginas pares e impares, las ordena en un nuevo documento.
 
@@ -26,18 +26,18 @@ Cuando no se dispone de un scaner a doble página, puede resultar una tarea pesa
 
 El objetivo de este programa es recuperar la lista de documentos escaneados (formato pdf de una página por documento), y obtener un documento final donde se hayan mezclado las páginas pares e impares del documento, obteniendo el resultado equivalente de un escaneado a doble página.
 
-## 1.2 Características
+## Características
 - Fácilmente configurable desde un fichero json editable por el usuario. para ello se usa la librería [Newtonsoft.Json.12.0.3](https://www.newtonsoft.com/json)
 - Permite procesar cualquier formato de fichero (pdf, jpg,...)
 - Se puede seleccionar la copia de los ficheros originales clasificados y mezclados.
 - Genera un nuevo pdf, si se ha elegido dicha opción, con los pdf escaneados ordenados y mezclados correctamente. Para ello usa la librería [PDFsharp.1.50.5147](http://www.pdfsharp.net/)
 
-## 1.3 Requisitos
+## Requisitos
 Inicialmente necesita:
 - Windows 10, aunque seguramente funcione en versiones anteriores.
 - .net Framework 4.7.2
 
-## 1.4 Instalación
+## Instalación
 Desde Visual Studio:
 - Abre el fichero MezcladorPaginas.sln y ejecútalo.
 
@@ -60,11 +60,11 @@ COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NING
 POR CUALQUIER RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, O DE OTRA MANERA, DERIVADA DE, FUERA DE O EN CONEXIÓN
 CON EL SOFTWARE O EL USO U OTRAS OFERTAS EN EL SOFTWARE.
 
-## 1.5 Inicio Rápido
+## Inicio Rápido
 
 Las siguientes instrucciones presuponen que estás usando la versión instalada, no la ejecución desde Visual Studio.
 
-#### 1.5.1 Configuración
+#### Configuración
 
 El programa se encuentra en C:\Program Files (x86)\Apps4Every\MixerPages.
 
@@ -98,7 +98,7 @@ Explicación del contenido del fichero de configuración:
   "sortEven":       Ordenación que deberá aplicarse a la páginas pares, puede usarse ASC o DESC. Normalmente las páginas pares se escanean descendentemente por lo que debería elegirse DESC.
   "unifyFile":      Indica si se desea generar un fichero en formato pdf con todas las páginas (true) o copiar los ficheros (false) de forma que ya se enceuntren mezclados y en orden. Los ficheros se grabarán en la carpeta documentFolder. Si el formato original es pdf, se podrá configurar true o false según el resultado deseado. Si el formato es cualquier otro (jpg por ejemplo) deberá elegirse false.
 ```
-#### 1.5.2 Ejecución
+#### Ejecución
 
 Una vez configurado correctamente el programa, se ejecutará con el siguiente programa: C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe
 
