@@ -2,7 +2,7 @@
 
 Starting from a scanned document with odd and even pages, it sorts them into a new document.
 
-## License - The MIT License (MIT)
+## License - The MIT License ([MIT](https://en.wikipedia.org/wiki/MIT_License))
 
 Copyright (c) 2020, apps4every
 
@@ -44,7 +44,7 @@ Desde Visual Studio:
 Desde Windows:
 - Abre el fichero setup.exe y ejecútalo.
 
-## License - The MIT License (MIT)
+## Licencia - The MIT License ([MIT](https://es.wikipedia.org/wiki/Licencia_MIT))
 
 Copyright (c) 2020, apps4every
 
