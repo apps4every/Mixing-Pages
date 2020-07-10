@@ -29,7 +29,7 @@ El objetivo de este programa es recuperar la lista de documentos escaneados (for
 Para escanear, un buen programa es [VueScan](https://www.hamrick.com/), también puedes usar otras [alternativas](https://alternativasde.com/tools/vuescan).
 
 El procedimiento a seguir sería el siguiente:
-- Configurar el programa de scanner que dispongas para que cada página escaneada se genere en un pdf independiente y configurar la ruta donde se grabara el resultado escaneado (por ejemplo `C:\temp\document`).
+- Configurar el programa de scanner que dispongas para que cada página escaneada se genere en un pdf independiente y configurar la ruta donde se grabará el resultado escaneado (por ejemplo `C:\temp\document`).
 - Poner el documento en el alimentador de páginas, para empezar a escanear las páginas impares.
 - Tras finalizar el escenado de las páginas impares, moverlas a una carpeta donde se identifique como páginas impares (por ejemplo `C:\temp\document\impar`).
 - Poner el documento en el alimentador de páginas, para empezar a escanear las páginas pares.
