@@ -34,7 +34,7 @@ El procedimiento a seguir sería el siguiente:
 - Tras finalizar el escenado de las páginas impares, moverlas a una carpeta donde se identifique como páginas impares (por ejemplo C:\temp\document\impar).
 - Poner el documento en el alimentador de páginas, para empezar a escanear las páginas pares.
 - Tras finalizar el escenado de las páginas pares, moverlas a una carpeta donde se identifique como páginas pares (por ejemplo C:\temp\document\par).
-- Ejecutar el programa C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe, ver instrucción de ejecución.
+- Ejecutar el programa C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe, ver [instrucción de ejecución](https://github.com/apps4every/Mixing-Pages/blob/master/README.md#ejecuci%C3%B3n).
 - El resultado lo obtendrás en la carpeta donde indicaste el escaneado del documento (por ejemplo C:\temp\document)
 
 ## Características
