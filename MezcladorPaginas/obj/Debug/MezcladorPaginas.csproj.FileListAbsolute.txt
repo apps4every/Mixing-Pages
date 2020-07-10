@@ -1,7 +1,0 @@
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\obj\Debug\MezcladorPaginas.csprojAssemblyReference.cache
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\obj\Debug\MezcladorPaginas.csproj.CoreCompileInputs.cache
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\bin\Debug\MezcladorPaginas.exe.config
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\bin\Debug\MezcladorPaginas.exe
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\bin\Debug\MezcladorPaginas.pdb
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\obj\Debug\MezcladorPaginas.exe
-C:\Users\Miguel Ángel\OneDrive\Desarrollo\apss4Every\Proyectos\MezcladorPaginas\MezcladorPaginas\obj\Debug\MezcladorPaginas.pdb
