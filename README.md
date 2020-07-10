@@ -26,6 +26,17 @@ Cuando no se dispone de un scaner a doble página, puede resultar una tarea pesa
 
 El objetivo de este programa es recuperar la lista de documentos escaneados (formato pdf de una página por documento), y obtener un documento final donde se hayan mezclado las páginas pares e impares del documento, obteniendo el resultado equivalente de un escaneado a doble página.
 
+Para escanear, un buen programa es [VueScan](https://www.hamrick.com/), también puedes usar otras [alternativas](https://alternativasde.com/tools/vuescan).
+
+El procedimiento a seguir sería el siguiente:
+- Configurar el programa de scanner que dispongas para que cada página escaneada se genere en un pdf independiente y configurar la ruta donde se grabara el resultado escaneado (por ejemplo C:\temp\document).
+- Poner el documento en el alimentador de páginas, para empezar a escanear las páginas impares.
+- Tras finalizar el escenado de las páginas impares, moverlas a una carpeta donde se identifique como páginas impares (por ejemplo C:\temp\document\impar).
+- Poner el documento en el alimentador de páginas, para empezar a escanear las páginas pares.
+- Tras finalizar el escenado de las páginas pares, moverlas a una carpeta donde se identifique como páginas pares (por ejemplo C:\temp\document\par).
+- Ejecutar el programa C:\Program Files (x86)\Apps4Every\MixerPages\MezcladorPaginas.exe, ver instrucción de ejecución.
+- El resultado lo obtendrás en la carpeta donde indicaste el escaneado del documento (por ejemplo C:\temp\document)
+
 ## Características
 - Fácilmente configurable desde un fichero json editable por el usuario. para ello se usa la librería [Newtonsoft.Json.12.0.3](https://www.newtonsoft.com/json)
 - Permite procesar cualquier formato de fichero (pdf, jpg,...)
